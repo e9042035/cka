@@ -68,9 +68,8 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  labels:
-    app: my-nginx
   name: hello
+  namespace: ing-internal
 spec:
   ports:
   - port: 5678
